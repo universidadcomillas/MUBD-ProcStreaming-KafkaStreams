@@ -1,0 +1,41 @@
+/.bsp/
+target/
+
+# Metals (Scala IDE)
+.metals/
+**/.metals/
+.bloop/
+**/.bloop/
+metals.sbt
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Scala/SBT
+project/target/
+project/project/
+.cache
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+.#*
