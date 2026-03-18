@@ -1,5 +1,5 @@
 
-package edu.comillas.mubd.procstreaming.kafkastreams
+package edu.comillas.kafkastreams
 
 import org.apache.kafka.streams._
 import org.apache.kafka.streams.processor.api._

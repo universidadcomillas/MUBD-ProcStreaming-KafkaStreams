@@ -19,7 +19,7 @@ object DemoBackpressure extends App {
   props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,         "localhost:9092")
   props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG,   "org.apache.kafka.common.serialization.Serdes$StringSerde")
   props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, "org.apache.kafka.common.serialization.Serdes$StringSerde")
-  props.put("consumer.interceptor.classes",                 "edu.comillas.mubd.procstreaming.kafkastreams.PollLoggingInterceptor")
+  props.put("consumer.interceptor.classes",                 "edu.comillas.kafkastreams.PollLoggingInterceptor")
 
   // Construcción de la topología manualmente
   val topology = new Topology()
